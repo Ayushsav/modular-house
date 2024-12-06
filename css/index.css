@@ -6625,7 +6625,7 @@ figure {
     }
 
     .footer-top-cta-content {
-        max-width: 500px;
+        max-width: 782px;
     }
 
     .footer-top-cta-image-wrapper {
@@ -9189,9 +9189,9 @@ figure {
     }
 
     .home-hero-image-wrapper {
-        padding-bottom: 60px;
+        padding-bottom: 10px;
         padding-left: 15px;
-        padding-right: 40px;
+        padding-right: 0px;
     }
 
     .hero-property-filter-wrapper {
@@ -9659,4 +9659,136 @@ figure {
     font-weight: 600;
     font-style: normal;
     font-display: swap;
+}
+
+/* FAQ Section */
+.faq-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+   
+  }
+  
+  .faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq-title {
+    text-align: center;
+    font-size: 28px;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .faq-description {
+    text-align: center;
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 30px;
+  }
+  
+  .faq-item {
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .faq-item:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-question {
+    background: #ffffff;
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #495057;
+  }
+  
+  .toggle-btn {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    background: #f8f9fa;
+    padding: 0 20px;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  }
+  
+  .faq-answer p {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #495057;
+    line-height: 1.5;
+  }
+  .services-dropdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: none; /* Hidden by default */
+    top: 100%; /* Align dropdown below the menu item */
+    left: 0;
+    z-index: 10;
+    min-width: 200px;
+  }
+  
+  .services-dropdown li {
+    padding: 10px 20px;
+  }
+  
+  .services-dropdown li:hover {
+    background: #f0f0f0;
+  }
+  
+  .dropdown-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+  }
+  
+  .nav-menu-item:hover .services-dropdown {
+    display: block; /* Show dropdown on hover */
+  }
+  
+  /* Menu link styling */
+  .nav-menu-item {
+    position: relative; /* Required for dropdown positioning */
+  }
+  
+  .nav-menu-link {
+    color: #333;
+    text-decoration: none;
+   
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  
+  .nav-item-border {
+    height: 2px;
+    background: #f0f0f0;
+    width: 100%;
+  }
+
+  .post-main-image-wrapper {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    position: relative;      
 }
