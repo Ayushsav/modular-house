@@ -8276,7 +8276,7 @@ figure {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .typography-block {
@@ -9124,7 +9124,15 @@ figure {
     }
 
     .heading-style-h3 {
-        font-size: 22px;
+        font-size: 13px;
+    }
+
+    .property-card-details a button{
+        font-size: 12px;
+    }
+
+    .property-price-period{
+        font-size: 11px;
     }
 
     .heading-style-h3.trusted-companies-title {
